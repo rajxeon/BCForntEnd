@@ -1,0 +1,108 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  
+  .tile  {
+      background: #2296F3;
+      padding: 18px; 
+      margin: 2px 0 0 0;
+      min-height: 130px;
+      border: 1px solid #fff;
+      color: #fff;
+      
+  }
+   
+  .tile:hover{
+      border-color: #555;
+      cursor: pointer;
+  }
+  .tile i{font-size: 340%;}
+
+  .dashTile{
+    min-height: 100px;
+    background: #3f51b5;
+    padding: 10px; 
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: all linear 0.2s;
+  }
+
+  .dashTile:hover,.dashTile:active{
+    border-color: #555;
+    cursor: pointer;
+    background: #fff;
+    border-color: #555;
+    color: #000;
+}
+
+.hibe{
+  min-width: 100px;
+  text-align: left
+}
+
+.drawer{ background: #fff; margin:5px;color:#000; padding: 10px;border-radius: 5px;
+display: none}
+
+.smTest{
+  text-align: center;
+}
+
+.smTest i{    font-size: 30px;}
+
+.smTest i:hover{
+  color: #005B9A;
+  transition: all 0s .2s linear;
+  cursor: pointer;
+}
+
+.bgBlue{ color: #005B9A;}
+
+.innerDiv{ background: #fff; border-radius: 10px;margin-top: 8px; padding: 10px; display: none}
+
+.qrs img{width: 80px; height:80px;}
+
+
+.nav{
+  background: #3f51b5 !important;
+}
+.nav-tabs a{    background: #3f51b5;
+  color: #fff;
+  border-radius: 0;
+  margin:0;
+  text-align: center;  
+  border-bottom: 3px solid #3f51b5;
+  margin-right:0 !important;
+}
+
+.nav .active a{
+  background: #3f51b5 !important;
+  color: #fff !important;
+  border-bottom-color: #b244eb !important;
+  
+}
+
+.nav .active a:hover{
+  background: #3f51b5 !important;
+  text-decoration: underline !important;
+  color:#555;
+}
+
+.nav li{
+  width: 33.3333%;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background: #3f51b5;
+  border-color: transparent;
+  border-bottom: 2px solid #3f51b5;
+  border-bottom-color: #b244eb !important;
+}
